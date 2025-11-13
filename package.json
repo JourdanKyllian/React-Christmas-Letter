@@ -2,6 +2,7 @@
   "name": "react-christmas-letter",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://jourdankyllian.github.io/react-christmas-letter",
   "type": "module",
   "scripts": {
     "dev": "vite",

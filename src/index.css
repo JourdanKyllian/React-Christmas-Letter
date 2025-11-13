@@ -1,0 +1,129 @@
+/* -------------------------------------------------- */
+/* 1️⃣ Fonts - Must be at the top                     */
+/* -------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* -------------------------------------------------- */
+/* 2️⃣ Tailwind Directives                             */
+/* -------------------------------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------------------------------------- */
+/* 3️⃣ CSS Variables & Custom Styles                  */
+/* -------------------------------------------------- */
+:root {
+  --paper: #f3e6d7; /* beige café */
+  --brown: #5b3a29;
+}
+
+/* body font */
+body { 
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  padding: 0;
+}
+
+/* handwritten font helper */
+.font-handwritten { font-family: 'Patrick Hand', cursive; }
+
+/* background paper texture */
+.bg-paper {
+  background: var(--paper);
+  background-image:
+    linear-gradient(transparent 0, rgba(0,0,0,0.02) 1px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.02) 10px, transparent 10px, transparent 20px);
+}
+
+/* folded corner decoration */
+.corner{
+  position:absolute;
+  right:18px; top:10px; width:50px; height:50px; transform:rotate(45deg);
+  background:linear-gradient(135deg, rgba(0,0,0,0.06), rgba(255,255,255,0.06));
+  border-bottom-left-radius:6px;
+}
+
+/* brown text helper */
+.text-brown { color: var(--brown); }
+
+/* -------------------------------------------------- */
+/* 4️⃣ Gift Pattern - Red Paper with subtle motifs    */
+/* -------------------------------------------------- */
+.bg-gift-pattern {
+  background-color: #b91c1c; /* deep red */
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 2px), /* small stars */
+    repeating-linear-gradient(0deg, transparent 0, transparent 20px, rgba(255,255,255,0.05) 21px, transparent 22px), /* subtle lines */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpolygon points='20,0 25,15 40,15 28,24 32,40 20,30 8,40 12,24 0,15 15,15' fill='%23fff' opacity='0.08'/%3E%3C/svg%3E"); /* trees */
+  background-repeat: repeat;
+  background-size: 60px 60px, 60px 60px, 40px 40px;
+}
+
+/* -------------------------------------------------- */
+/* 5️⃣ Gift wrapper sizes and style                   */
+/* -------------------------------------------------- */
+.gift-content {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Gift image */
+.gift-content img {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* Gift title */
+.gift-content h3 {
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Gift link */
+.gift-content a {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  color: #2563eb; /* blue-600 */
+}
+
+/* -------------------------------------------------- */
+/* 6️⃣ Motion helpers for ribbon & knot styling      */
+/* -------------------------------------------------- */
+.ribbon {
+  width: 0.25rem;
+  height: 5rem;
+  background-color: #22c55e; /* green */
+  border-radius: 0.125rem;
+}
+
+.knot {
+  width: 2.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  background-color: #22c55e; /* green */
+  box-shadow: inset 0 -2px 3px rgba(0,0,0,0.3);
+}
+
+/* Text helper under gift */
+.gift-click-text {
+  position: absolute;
+  bottom: 0.75rem;
+  font-size: 0.625rem;
+  color: rgba(255,255,255,0.9);
+  z-index: 20;
+}

@@ -5,8 +5,11 @@ import Letter from './components/Letter'
 const gifts = [
   { id: 1, title: 'Apple watch serie 10 46mm', img: '/React-Christmas-Letter/aw.png', link: 'https://www.boulanger.com/ref/1211660?offer=33dbc973-0369-48e0-94b6-38d54b4c59ed' },
   { id: 2, title: 'Balance connectée apple', img: '/React-Christmas-Letter/balance.jpeg', link: 'https://www.apple.com/fr/shop/product/hqyd2zm/a/body-smart-de-withings-balance-connect%C3%A9e-avec-analyse-corporelle-avanc%C3%A9e' },
-  { id: 3, title: 'Ensemble gymshark' , img: '/React-Christmas-Letter/gymshark.png', link: 'https://fr.gymshark.com/pages/shop-men' },
-  { id: 4, title: 'Une alternance', img: '/React-Christmas-Letter/entretien.jpg', link: 'https://fr.indeed.com/jobs?q=d%C3%A9veloppeur&l=Paris+%2875%29&from=searchOnHP&vjk=6b621ea161032f9a' }
+  { id: 3, title: 'Ensemble gymshark (black friday -50%)' , img: '/React-Christmas-Letter/gymshark.png', link: 'https://fr.gymshark.com/pages/shop-men' },
+  { id: 4, title: 'Canard plastique' , img: '/React-Christmas-Letter/canard.webp', link: 'https://www.parisduckstore.fr/produit/le-developpeur-informatique-it-duck/' },
+  { id: 5, title: 'Figurine manga (j\'ai des reduc)' , img: '/React-Christmas-Letter/manga.', link: 'https://store.crunchyroll.com/eu/fr/fr/products/dan-da-dan-okarun-tenitol-figure-transformed-ver-4580736407176.html' },
+  { id: 6, title: 'Un maine coon' , img: '/React-Christmas-Letter/mainecoon.jpeg', link: 'https://www.la-spa.fr/adopter/trouver-son-animal/les-chats-a-adopter-a-la-spa/adopter-un-maine-coon/' },
+  { id: 7, title: 'Une alternance', img: '/React-Christmas-Letter/entretien.jpg', link: 'https://fr.indeed.com/jobs?q=d%C3%A9veloppeur&l=Paris+%2875%29&from=searchOnHP&vjk=6b621ea161032f9a' }
 ];
 
 export default function App() {

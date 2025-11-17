@@ -52,15 +52,15 @@ Assure-toi que tes images sont accessibles via :
 ## 📁 Structure des dossiers
 ```bash
 /public
-  porsche.png
-  montre.jpg
-  livre.jpg
+  image1.png
+  image2.jpg
+  image3.jpg
 /src
   components/
-    Header.jsx
-    Letter.jsx
-    Gift.jsx
-  App.jsx
+    Header.jsx      
+    Letter.jsx      // HTML de la lettre
+    Gift.jsx        // Animations de l'ouverture des cadeaux
+  App.jsx           // Présente la liste des cadeaux
   main.jsx
 ```
 

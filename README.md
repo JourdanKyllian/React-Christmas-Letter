@@ -59,7 +59,7 @@ Assure-toi que tes images sont accessibles via :
   components/
     Header.jsx      
     Letter.jsx      // HTML de la lettre
-    Gift.jsx        // Animations de l'ouverture des cadeaux
+    Gift.jsx        // Animations des ouvertures de cadeaux
   App.jsx           // Présente la liste des cadeaux
   main.jsx
 ```

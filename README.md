@@ -1,16 +1,82 @@
-# React + Vite
+# React Christmas Letter (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une petite application React festive permettant d’afficher une lettre de Noël avec plusieurs cadeaux.
+Chaque cadeau est recouvert d’un papier cadeau animé : ficelle, nœud, puis ouverture progressive avec un bel effet visuel.
+Le projet est déployé via GitHub Pages.
 
-Currently, two official plugins are available:
+🚀 Démo
+👉 Voir le site :
+https://jourdankyllian.github.io/React-Christmas-Letter/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 Fonctionnalités
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎁 Cartes cadeaux interactives
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Animation d’ouverture réaliste (ficelle → nœud → papier cadeau)
+
+
+🎄 Fond décoratif avec motifs de Noël
+
+
+📱 Interface responsive
+
+
+🔗 Chaque cadeau renvoie vers un lien externe
+
+
+
+🛠️ Technologies
+
+
+React + Vite
+
+
+TailwindCSS
+
+
+Framer Motion pour les animations
+
+
+GitHub Pages pour le déploiement
+
+
+
+🏗️ Installation
+git clone https://github.com/jourdankyllian/React-Christmas-Letter.git
+cd React-Christmas-Letter
+npm install
+npm run dev
+
+
+🚀 Déployer sur GitHub Pages
+Le projet contient déjà les scripts suivants :
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+
+Pour déployer :
+npm run deploy
+
+Assure-toi que tes images sont accessibles via :
+/React-Christmas-Letter/nom-de-image.png
+
+
+📁 Structure des dossiers
+/public
+  porsche.png
+  montre.jpg
+  livre.jpg
+/src
+  components/
+    Header.jsx
+    Letter.jsx
+    Gift.jsx
+  App.jsx
+  main.jsx
+
+
+📄 Licence
+Projet libre d’utilisation — amuse-toi et Joyeux Noël ! 🎅✨
+
+Si tu veux, je peux aussi te générer une version plus professionnelle, plus fun, ou plus détaillée !

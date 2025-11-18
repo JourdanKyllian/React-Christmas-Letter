@@ -7,7 +7,7 @@ const gifts = [
   { id: 2, title: 'Balance connectée apple', img: '/React-Christmas-Letter/balance.jpeg', link: 'https://www.apple.com/fr/shop/product/hqyd2zm/a/body-smart-de-withings-balance-connect%C3%A9e-avec-analyse-corporelle-avanc%C3%A9e' },
   { id: 3, title: 'Ensemble gymshark (black friday -50%)' , img: '/React-Christmas-Letter/gymshark.png', link: 'https://fr.gymshark.com/pages/shop-men' },
   { id: 4, title: 'Canard plastique' , img: '/React-Christmas-Letter/canard.webp', link: 'https://www.parisduckstore.fr/produit/le-developpeur-informatique-it-duck/' },
-  { id: 5, title: 'Figurine manga (j\'ai des reduc)' , img: '/React-Christmas-Letter/manga.jpg', link: 'https://store.crunchyroll.com/eu/fr/fr/products/dan-da-dan-okarun-tenitol-figure-transformed-ver-4580736407176.html' },
+  { id: 5, title: 'Figurine manga' , img: '/React-Christmas-Letter/manga.jpg', link: 'https://store.crunchyroll.com/eu/fr/fr/products/dan-da-dan-okarun-tenitol-figure-transformed-ver-4580736407176.html' },
   { id: 6, title: 'Sac de frappe' , img: '/React-Christmas-Letter/sac.webp', link: 'https://www.decathlon.fr/p/sac-de-frappe-pied-poing-32-kg-adulte/_/R-p-327521?mc=8600730&c=noir' },
   { id: 7, title: 'Tee-shirt' , img: '/React-Christmas-Letter/tee.avif', link: 'https://www.thenorthface.com/fr-fr/p/femme-211718/t-shirt-decontracte-bubble-logo-unisexe-NF0A8F2R?color=JK3' },
   { id: 8, title: 'Un maine coon' , img: '/React-Christmas-Letter/mainecoon.jpeg', link: 'https://www.la-spa.fr/adopter/trouver-son-animal/les-chats-a-adopter-a-la-spa/adopter-un-maine-coon/' },
